@@ -55,7 +55,7 @@ public class GeneratorScript : MonoBehaviour {
                     float randz = Random.Range(-1f, 1f);
                     Vector3 randsvec = new Vector3(randx, 0, randz);
                     randsvec = randsvec.normalized;
-                    randsvec = randsvec * radius;
+                    randsvec = randsvec * Random.Range(0,radius);
                     spawnposition += randsvec;
                     break;
                 case EmissionType.sphere:

@@ -13,7 +13,7 @@ public class particlesoundemission : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(SoundDataCollector.bands[0] > 5 || SoundDataCollector.bands[01] > 5)
+		if(SoundDataCollector.bands[0] > 6 || SoundDataCollector.bands[1] > 4)
         {
             ps.radius *= 5;
             ps.Burst(20);
