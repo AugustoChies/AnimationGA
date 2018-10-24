@@ -65,6 +65,7 @@ MonoBehaviour:
   rotate: 0
   rotationspeed: 0
   movespeed: 0
+  coneend: {x: 0, y: 0, z: 0}
   particlePrefab: {fileID: 0}
   currentparticles: 0
   maxparticles: 0
